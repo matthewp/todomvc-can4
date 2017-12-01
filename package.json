@@ -1,0 +1,33 @@
+{
+  "name": "todomvc-can4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "can-todomvc-test": "^1.0.2",
+    "steal": "^1.6.2",
+    "steal-css": "^1.3.1",
+    "steal-tools": "^1.9.2"
+  },
+  "dependencies": {
+    "can-component": "^4.0.0-pre.13",
+    "can-connect": "^2.0.0-pre.11",
+    "can-define": "^1.5.4",
+    "can-fixture": "^2.0.0-pre.0",
+    "can-route": "^4.0.0-pre.11",
+    "can-set": "^1.3.3",
+    "can-stache": "^4.0.0-pre.23",
+    "steal-stache": "^4.0.0-pre.2"
+  },
+  "steal": {
+    "plugins": [
+      "steal-stache",
+      "steal-css"
+    ]
+  }
+}
